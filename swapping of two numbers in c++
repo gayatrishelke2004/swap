@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+class swapp
+{
+public:
+int a=10,b=20;
+int temp;
+void swaping()
+{
+    cout<<"values before swaping are"<<a<<" "<<b<<endl;
+    temp=a;
+    a=b;
+    b=temp;
+    cout<<"values after swaping are "<<a<<" "<<b;
+}
+};
+int main()
+{
+    swapp number;
+    number.swaping();
+    return 0;
+}
